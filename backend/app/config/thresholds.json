@@ -1,0 +1,243 @@
+[
+  {
+    "threshold_id": "gfr_2026_rule154_standard",
+    "rule_id": "gfr_rule_154",
+    "rule_ref": "Rule 154",
+    "title": "Purchase of goods without quotation (Standard GFR 2026)",
+    "value": 50000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 36,
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": null,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "direct_purchase",
+    "required_certificate": "Rule 154 Certificate of Quality and Reasonable Price",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2026_rule154_scientific",
+    "rule_id": "gfr_rule_154_scientific",
+    "rule_ref": "Rule 154 Special Provision",
+    "title": "Purchase of goods without quotation for Scientific/Research purposes",
+    "value": 200000,
+    "currency": "INR",
+    "source_doc_id": "doe_om_scientific_research_2024",
+    "source_doc": "om-scientific-thresholds-2024.pdf",
+    "page": 2,
+    "effective_from": "2024-10-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": "eligible",
+      "research_purpose": true,
+      "scientific_equipment": true,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "direct_purchase_scientific",
+    "required_certificate": "Rule 154 Special Scientific Research Certificate",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2017_rule154_historical",
+    "rule_id": "gfr_rule_154_historical",
+    "rule_ref": "Rule 154 (Historical)",
+    "title": "Purchase of goods without quotation (GFR 2017 Original)",
+    "value": 25000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_historical_2017",
+    "source_doc": "GFR2017_original.pdf",
+    "page": 34,
+    "effective_from": "2017-03-01",
+    "effective_to": "2026-01-31",
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": null,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "direct_purchase",
+    "required_certificate": "Rule 154 Certificate of Reasonable Price (Historical)",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2026_rule155_standard",
+    "rule_id": "gfr_rule_155",
+    "rule_ref": "Rule 155",
+    "title": "Purchase of goods by Purchase Committee (Standard GFR 2026)",
+    "value": 500000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 36,
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": null,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "purchase_committee",
+    "required_certificate": "Rule 155 Joint Purchase Committee Certificate",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2026_rule155_scientific",
+    "rule_id": "gfr_rule_155_scientific",
+    "rule_ref": "Rule 155 Special Provision",
+    "title": "Purchase of goods by Purchase Committee for Scientific/Research purposes",
+    "value": 2500000,
+    "currency": "INR",
+    "source_doc_id": "doe_om_scientific_research_2024",
+    "source_doc": "om-scientific-thresholds-2024.pdf",
+    "page": 2,
+    "effective_from": "2024-10-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": "eligible",
+      "research_purpose": true,
+      "scientific_equipment": true,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "purchase_committee_scientific",
+    "required_certificate": "Rule 155 Special Scientific Purchase Committee Certificate",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2017_rule155_historical",
+    "rule_id": "gfr_rule_155_historical",
+    "rule_ref": "Rule 155 (Historical)",
+    "title": "Purchase of goods by Purchase Committee (GFR 2017 Original)",
+    "value": 250000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_historical_2017",
+    "source_doc": "GFR2017_original.pdf",
+    "page": 35,
+    "effective_from": "2017-03-01",
+    "effective_to": "2026-01-31",
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "special_eligibility": null,
+      "gem_status": "unavailable_verified"
+    },
+    "route": "purchase_committee",
+    "required_certificate": "Rule 155 Joint Committee Certificate (Historical)",
+    "verified": true
+  },
+  {
+    "threshold_id": "gem_rule149_direct",
+    "rule_id": "gem_rule_149_direct",
+    "rule_ref": "Rule 149(i)",
+    "title": "GeM Direct Purchase without quotation/comparison",
+    "value": 25000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 35,
+    "effective_from": "2020-01-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "gem_status": "available_verified"
+    },
+    "route": "GeM_direct",
+    "required_certificate": "GeM Direct Purchase Order and Invoice",
+    "verified": true
+  },
+  {
+    "threshold_id": "gem_rule149_l1",
+    "rule_id": "gem_rule_149_l1",
+    "rule_ref": "Rule 149(ii)",
+    "title": "GeM Lowest of Three Comparison (L1)",
+    "value": 500000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 35,
+    "effective_from": "2020-01-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "gem_status": "available_verified"
+    },
+    "route": "GeM_lowest_of_three",
+    "required_certificate": "GeM L1 Comparison Sheet (min 3 manufacturers)",
+    "verified": true
+  },
+  {
+    "threshold_id": "gem_rule149_bidding",
+    "rule_id": "gem_rule_149_bidding",
+    "rule_ref": "Rule 149(iii)",
+    "title": "GeM Mandatory Bidding / Reverse Auction",
+    "value": 500000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 35,
+    "effective_from": "2020-01-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "gem_status": "available_verified"
+    },
+    "route": "GeM_bidding",
+    "required_certificate": "GeM Custom Bid / Reverse Auction Summary Report",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2026_limited_tender",
+    "rule_id": "gfr_rule_161",
+    "rule_ref": "Rule 161",
+    "title": "Limited Tender Enquiry (Goods)",
+    "value": 2500000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 39,
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "gem_status": "unavailable_verified"
+    },
+    "route": "limited_tender",
+    "required_certificate": "Limited Tender Notice to Registered Suppliers (min 3 bids)",
+    "verified": true
+  },
+  {
+    "threshold_id": "gfr_2026_advertised_tender",
+    "rule_id": "gfr_rule_162",
+    "rule_ref": "Rule 162",
+    "title": "Advertised Tender Enquiry / Open Tender (Goods)",
+    "value": 2500000,
+    "currency": "INR",
+    "source_doc_id": "gfr_2017_updated_2026",
+    "source_doc": "GFR2017_updated_31012026.pdf",
+    "page": 40,
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "authority_level": 1,
+    "applicability": {
+      "category": "goods",
+      "gem_status": "unavailable_verified"
+    },
+    "route": "advertised_tender",
+    "required_certificate": "CPPP e-Publishing Tender Notice & Bid Evaluation",
+    "verified": true
+  }
+]

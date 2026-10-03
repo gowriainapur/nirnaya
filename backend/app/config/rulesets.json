@@ -1,0 +1,20 @@
+[
+  {
+    "ruleset_id": "gfr_2017_updated_31_01_2026",
+    "name": "General Financial Rules 2017 (Updated upto 31.01.2026)",
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "is_current": true,
+    "description": "Current authoritative central procurement framework with ₹50,000 direct purchase and ₹5,00,000 committee limits (goods), and special research provisions up to ₹2,00,000 and ₹25,00,000.",
+    "doc_ids": ["gfr_2017_updated_2026", "manual_procurement_goods_2024", "doe_om_scientific_research_2024", "gem_gtc_guidance_2025"]
+  },
+  {
+    "ruleset_id": "gfr_2017_historical_original",
+    "name": "General Financial Rules 2017 (Original Baseline)",
+    "effective_from": "2017-03-01",
+    "effective_to": "2026-01-31",
+    "is_current": false,
+    "description": "Historical framework with ₹25,000 direct purchase and ₹2,50,000 purchase committee limits.",
+    "doc_ids": ["gfr_2017_historical_2017"]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "institution_name": "Apex National Institute of Technology & Research (NITR)",
+  "policy_doc_id": "synthetic_institute_manual_v3",
+  "policy_version": "v3.1_synthetic",
+  "is_synthetic": true,
+  "disclaimer": "SYNTHETIC / DEMONSTRATION POLICY - DO NOT CONSTRUE AS OFFICIAL CENTRAL GOVERNMENT POLICY",
+  "internal_thresholds": {
+    "direct_purchase_internal_cap": 40000,
+    "internal_pc_cap": 400000,
+    "note": "Internal financial discipline guidelines setting stricter ₹40,000 threshold for direct purchase prior to committee formation."
+  },
+  "deliberate_conflict": {
+    "clause_id": "clause_4_2_synthetic_override",
+    "clause_ref": "Clause 4.2",
+    "title": "Purported Direct Purchase without GeM search up to ₹75,000",
+    "text": "The Head of Department may directly authorize procurement of lab consumables and office articles up to ₹75,000 on cash/single voucher basis without prior GeM portal search.",
+    "conflicts_with": [
+      {
+        "source_doc_id": "gfr_2017_updated_2026",
+        "rule_ref": "Rule 154",
+        "reason": "Central Rule 154 limits direct purchase to ₹50,000 per occasion."
+      },
+      {
+        "source_doc_id": "gfr_2017_updated_2026",
+        "rule_ref": "Rule 149",
+        "reason": "Rule 149 mandates GeM search; offline purchase without GeM verification is explicitly prohibited."
+      }
+    ]
+  },
+  "delegation_matrix": [
+    {
+      "role": "Principal Investigator (PI)",
+      "funding_source": "project",
+      "limit_inr": 100000,
+      "conditions": ["Approved sponsored project budget", "Non-capital consumables & minor spares only"]
+    },
+    {
+      "role": "Head of Department (HoD)",
+      "funding_source": "institute",
+      "limit_inr": 100000,
+      "conditions": ["Department operating fund only"]
+    },
+    {
+      "role": "Dean (R&C / Academic)",
+      "funding_source": "any",
+      "limit_inr": 500000,
+      "conditions": ["Prior financial concurrence from Finance Branch"]
+    },
+    {
+      "role": "Director / Board of Governors",
+      "funding_source": "any",
+      "limit_inr": null,
+      "conditions": ["Full institutional powers subject to GFR adherence"]
+    }
+  ]
+}
